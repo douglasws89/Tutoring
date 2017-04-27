@@ -11,8 +11,9 @@ import android.content.SharedPreferences;
 public class AppInfo {
 
     private static AppInfo instance = null;
-    private static final String MY_TEXT_ONE = "";
-    private static final String MY_TEXT_TWO = "";
+    // Fix error of loading the same string twice on resume
+    private static final String MY_TEXT_ONE = "One";
+    private static final String MY_TEXT_TWO = "Two";
 
 
     protected AppInfo() {
