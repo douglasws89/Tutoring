@@ -11,8 +11,9 @@ import android.content.SharedPreferences;
 public class AppInfo {
 
     private static AppInfo instance = null;
-    private static final String MY_TEXT_ONE = "";
-    private static final String MY_TEXT_TWO = "";
+    // Updated this to be equal to a string "ONE" and "TWO"
+    private static final String MY_TEXT_ONE = "ONE";
+    private static final String MY_TEXT_TWO = "TWO";
 
 
     protected AppInfo() {
